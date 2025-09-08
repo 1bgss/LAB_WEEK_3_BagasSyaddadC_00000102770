@@ -14,3 +14,5 @@
 <img width="622" height="415" alt="commit 5" src="https://github.com/user-attachments/assets/4aded06d-65d1-4716-94c7-c16846e6c614" />
 <img width="1686" height="676" alt="all commit bukti" src="https://github.com/user-attachments/assets/50061302-4835-4361-94db-1254f8b91f17" />
 <img width="1885" height="632" alt="lab3_logcat 1" src="https://github.com/user-attachments/assets/c718a13e-2515-4d70-85e2-ea48459ed32e" />
+[APK_Lab_Week 3.zip](https://github.com/user-attachments/files/22211668/APK_Lab_Week.3.zip)
+![app pov handphone](https://github.com/user-attachments/assets/11af7e46-0fcd-463e-9f8a-78d08f0d5225)
