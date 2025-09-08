@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.fragment.app.FragmentContainerView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    android:id="@+id/fragment_container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <fragment
-        android:id="@+id/fragment_list"
-        android:name="com.example.lab_week_3.ListFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:layout_weight="1" />
-
-    <fragment
-        android:id="@+id/fragment_detail"
-        android:name="com.example.lab_week_3.DetailFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="90dp" />
-
-</LinearLayout>
+    android:layout_height="match_parent" />
