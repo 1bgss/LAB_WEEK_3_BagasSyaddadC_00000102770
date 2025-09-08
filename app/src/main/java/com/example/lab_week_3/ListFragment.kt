@@ -1,24 +1,13 @@
 package com.example.lab_week_3
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 
 class ListFragment : Fragment(), View.OnClickListener {
-
-    private lateinit var coffeeListener: CoffeeListener
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        if (context is CoffeeListener) {
-            coffeeListener = context
-        } else {
-            throw RuntimeException("$context must implement CoffeeListener")
-        }
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -36,12 +25,15 @@ class ListFragment : Fragment(), View.OnClickListener {
             view.findViewById(R.id.latte)
         )
 
-        coffeeList.forEach {
-            it.setOnClickListener(this)
+        coffeeList.forEach { coffee ->
+            coffee.setOnClickListener(this)
         }
     }
 
     override fun onClick(v: View?) {
-        v?.let { coffeeListener.onSelected(it.id) }
+        v?.let {
+            val bundle = Bundle().apply { putInt(DetailFragment.ARG_COFFEE_ID, it.id) }
+            findNavController().navigate(R.id.action_to_detail, bundle)
+        }
     }
 }
