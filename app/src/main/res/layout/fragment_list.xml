@@ -42,5 +42,55 @@
             android:padding="10dp"
             android:text="@string/latte_title"/>
 
+        <TextView
+            android:id="@+id/cortado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/cortado_title"/>
+
+        <TextView
+            android:id="@+id/mocha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/mocha_title"/>
+
+        <TextView
+            android:id="@+id/flatwhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/flatwhite_title"/>
+
+        <TextView
+            android:id="@+id/macchiato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/macchiato_title"/>
+
+        <TextView
+            android:id="@+id/ristretto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/ristretto_title"/>
+
+        <TextView
+            android:id="@+id/cappuccino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/cappuccino_title"/>
+
+        <TextView
+            android:id="@+id/irish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/irish_title"/>
+
+
     </LinearLayout>
 </ScrollView>

@@ -22,8 +22,16 @@ class ListFragment : Fragment(), View.OnClickListener {
         val coffeeList = listOf<View>(
             view.findViewById(R.id.affogato),
             view.findViewById(R.id.americano),
-            view.findViewById(R.id.latte)
+            view.findViewById(R.id.latte),
+            view.findViewById(R.id.cortado),
+            view.findViewById(R.id.mocha),
+            view.findViewById(R.id.flatwhite),
+            view.findViewById(R.id.macchiato),
+            view.findViewById(R.id.ristretto),
+            view.findViewById(R.id.cappuccino),
+            view.findViewById(R.id.irish)
         )
+
 
         coffeeList.forEach { coffee ->
             coffee.setOnClickListener(this)

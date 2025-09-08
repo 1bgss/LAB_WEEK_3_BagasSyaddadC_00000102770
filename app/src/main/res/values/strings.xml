@@ -11,4 +11,25 @@
 
     <string name="latte_title">CAFFE LATTE</string>
     <string name="latte_desc">An espresso with steamed milk and a little milk foam. Served in a latte glass or coffee cup.</string>
+
+    <string name="cortado_title">CORTADO</string>
+    <string name="cortado_desc">Espresso cut with a small amount of warm milk.</string>
+
+    <string name="mocha_title">MOCHA</string>
+    <string name="mocha_desc">A chocolate-flavored variant of a caffe latte.</string>
+
+    <string name="flatwhite_title">FLAT WHITE</string>
+    <string name="flatwhite_desc">An espresso with steamed milk, smoother than a cappuccino.</string>
+
+    <string name="macchiato_title">MACCHIATO</string>
+    <string name="macchiato_desc">Espresso with a small amount of foamed milk on top.</string>
+
+    <string name="ristretto_title">RISTRETTO</string>
+    <string name="ristretto_desc">A very short shot of espresso coffee made with less water.</string>
+
+    <string name="cappuccino_title">CAPPUCCINO</string>
+    <string name="cappuccino_desc">Espresso with steamed milk and deep layer of foam.</string>
+
+    <string name="irish_title">IRISH COFFEE</string>
+    <string name="irish_desc">Coffee mixed with Irish whiskey and sugar, topped with cream.</string>
 </resources>
